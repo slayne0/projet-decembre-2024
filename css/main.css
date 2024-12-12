@@ -1,213 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 
 * {
-    font-family: "Public Sans", sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
+body {
+  height: 100vh;
+}
 
 header {
-    margin-top: 40px;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
+  margin-top: 40px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .lien {
-    display: none;
+  display: none;
 }
 
 .cta {
-    display: none;
+  display: none;
 }
 
 .tel {
-    margin-right: auto;
-    margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-
-
 input {
-    width: 100%;
-    padding: 16px 24px 16px 24px;
-    border-radius: 32px;
-    background-color: #FBFCFE;
-    color: white;
-    margin-bottom: 16px;
-    border: none;
+  width: 100%;
+  padding: 16px 24px 16px 24px;
+  border-radius: 32px;
+  background-color: #fbfcfe;
+  color: white;
+  margin-bottom: 16px;
+  border: none;
 }
 
 button {
-    width: 100%;
-    padding: 16px 24px 16px 24px;
-    border-radius: 32px;
-    background-color: #BA4270;
-    color: white;
-    margin-bottom: 16px;
-    border: none;
+  width: 100%;
+  padding: 16px 24px 16px 24px;
+  border-radius: 32px;
+  background-color: #ba4270;
+  color: white;
+  margin-bottom: 16px;
+  border: none;
 }
 
 h1 {
-    font-family: "DM Serif Display", serif;
-    text-align: center;
-    font-size: 32px;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  font-size: 32px;
 }
 
-
 .accueil {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .contact {
-    font-weight: bold;
-    color: #6C8294;
+  font-weight: bold;
+  color: #6c8294;
 }
-
 
 .question {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20%;
 }
 
-
-
 article {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    color: white;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  text-align: center;
 }
 
 .fond {
-    background-color: #1B262F;
+  background-color: #1b262f;
+  padding-bottom: 20%;
 }
 
 .images {
-    display: grid;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+.sponsor {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.image {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+.aprobation-social {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  opacity: 70%;
+  margin-bottom: 56px;
+}
+
+.learn-more {
+  color: #fbfcfe;
+  padding: 16px 32px 16px 32px;
+  border-radius: 32px;
+  border: 1px solid #fbfcfe;
+  display: inline-block;
+}
+
+.fonctionalite-1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-top: 80px;
+}
+
+.fonctionalite-2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-top: 80px;
+}
+
+h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 36px;
+    color: #36536B;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+.description-fonctionalite {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #6C8294;
+}
+
+.img-fonction-1 {
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-fonction-2 {
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
 
 
 
 
 
 @media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 16px;
+  }
 
-    .logo {
-        margin-right: 16px;
-    }
+  .menu-burger {
+    display: none;
+  }
 
-    .menu-burger {
-        display: none;
-    }
+  .cta {
+    padding: 16px 24px 16px 24px;
+    border-radius: 32px;
+    background-color: #ba4270;
+    color: white;
+    text-decoration: none;
+    display: unset;
+  }
 
-    .cta {
-        padding: 16px 24px 16px 24px;
-        border-radius: 32px;
-        background-color: #BA4270;
-        color: white;
-        text-decoration: none;
-        display: unset;
-    }
-    
-    .lien {
-        opacity: 70%;
-        color: #36536B;
-        margin-right: 16px;
-        display: unset;
-    }
+  .lien {
+    opacity: 70%;
+    color: #36536b;
+    margin-right: 16px;
+    display: unset;
+  }
+
+  header {
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  input {
+    width: 60%;
+    border-radius: 32px 0px 0px 32px;
+  }
+
+  button {
+    width: 50%;
+    margin-left: -32px;
+  }
+
+  form {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .images {
+    display: unset;
+  }
+
+  .image {
+    display: flex;
+  }
+
+  .sponsor {
+    margin-right: 32px;
+  }
+
+  h2 {
+    margin-top: 80px;
+    font-size: 48px;
+  }
+
+  article {
+    width: 75%;
+    padding-top: 40px;
+  }
 
 
-    header {
-        width: 90%;
-        justify-content: space-between;
-    }
+  .fonctionalite-1 {
+    width: 70%;
+  }
 
-    input {
-        width: 60%;
-        border-radius: 32px 0px 0px 32px;
-    }
+  .fonctionalite-2 {
+    width: 70%;
+  }
 
-
-    button {
-        width: 50%;
-        margin-left: -32px;
-    }
-
-    form {
-        display: flex;
-    }
-
-    h1 {
-        font-size: 48px;
-    }
+  h2 {
+    font-size: 48px;
+  }
 
 
 }
 
 
+
 @media screen and (min-width: 1024px) {
+  .lien {
+    opacity: 70%;
+    color: #36536b;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
 
+  header {
+    max-width: 1100px;
+  }
 
-    .lien {
-        opacity: 70%;
-        color: #36536B;
-        margin-right: 32px;
-        margin-left: 32px;
+  a:hover {
+    color: black;
+  }
+
+  .cta {
+    margin-left: auto;
+  }
+
+  .accueil {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1100px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  h1 {
+    font-weight: 400;
+    color: #36536b;
+    text-align: left;
+  }
+
+  .question {
+    display: unset;
+  }
+
+  article {
+    text-align: left;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row-reverse;
+    margin: 0px;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-sponsor {
+    max-width: 445px;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    justify-content: flex-start;
+  }
+
+  .fond {
+    padding-bottom: 80px;
+  }
+
+  .fonctionalite {
+    display: flex;
+  }
+
+  .explication {
+    width: 50%;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .description-fonctionalite {
+    text-align: left;
+  }
+
+  .fonctionalite-1 {
+    display: flex;
+  }
+
+  .fonctionalite-2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .img-fonction-1 {
+    margin-left: 0px;
     }
 
-    header {
-        max-width: 1100px;
+
+  .img-fonction-2 {
+        margin-right: 0px;
     }
 
-    a:hover {
-        color: black;
-    }
-
-    .cta {
-        margin-left: auto;
-    }
-
-    .accueil {
-        display: flex;
-        flex-direction: row-reverse;
-        max-width: 1100px;
-    }
-
-    .main-content {
-        display: flex;
-        flex-direction: column;
-    }
-
-    form {
-        width: 90%;
-    }
-
-    h1 {
-        font-weight: 400;
-        color: #36536B;
-        text-align: left;
-    }
-
-    .question {
-        display: unset;
-    }
 
 }
