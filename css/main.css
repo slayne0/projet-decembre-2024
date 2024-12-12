@@ -302,6 +302,14 @@ h2 {
     font-size: 48px;
   }
 
+  .all-logo-finance {
+    display: flex;
+  }
+
+  .finance {
+    margin-right: 32px;
+  }
+
 
 }
 
