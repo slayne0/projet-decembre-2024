@@ -365,10 +365,10 @@ a {
 
   footer {
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-bottom: 32px;
     padding-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .page-footer-wrapper {
@@ -400,11 +400,11 @@ a {
   }
 
   .gestion-width-footer {
-    display: flex;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 }
