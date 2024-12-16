@@ -8,6 +8,7 @@
 
 body {
   height: 100vh;
+  background-color: #EDF3F8;
 }
 
 header {
@@ -45,9 +46,10 @@ input {
   padding: 16px 24px 16px 24px;
   border-radius: 32px;
   background-color: #fbfcfe;
-  color: white;
   margin-bottom: 16px;
   border: none;
+  color: black;
+  font-size: 14px;
 }
 
 button {
@@ -210,6 +212,20 @@ h2 {
     margin-bottom: 16px;
 }
 
+.ready {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+.start {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 
 
@@ -304,10 +320,6 @@ h2 {
 
   .all-logo-finance {
     display: flex;
-  }
-
-  .finance {
-    margin-right: 32px;
   }
 
 
@@ -424,5 +436,29 @@ h2 {
         margin-right: 0px;
     }
 
+    .all-logo-finance {
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      gap: 32px;
+    }
 
+    .start {
+      display: flex;
+      align-items: center;
+      max-width: 1100px;
+      margin-top: 96px;
+      justify-content: space-between;
+    }
+
+    .ready {
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    .email-low {
+      width: 445px;
+    }
 }
