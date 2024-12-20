@@ -1,0 +1,141 @@
+
+
+/* border-top: 1px solid #36536B; */
+
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "DM Serif Display", serif;
+}
+
+
+ul {
+    padding-left: 0px;
+}
+
+.option {
+    margin-top: 16px;
+    list-style: none;
+    opacity: 50%;
+}
+
+.option-active {
+    list-style-image: url(../image/coché-de-validation.svg);
+    opacity: 100%;
+}
+
+.formule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.description-option {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #6C8294;
+}
+
+.prix-option {
+    font-size: 56px;
+    font-family: "DM Serif Display", serif;
+    color: #36536B;
+}
+
+.option-title {
+    color: #BA4270;
+}
+
+.fonctionalitise-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    border-top: 1px solid #36536B40;
+    border-bottom: 1px solid #36536B40;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+    margin-top: 24px;
+}
+
+.demande-daccess {
+    margin-top: 32px;
+    color: #36536B;
+    padding: 8px 28px 8px 28px;
+    border-radius: 32px;
+    border: 1px solid #36536B;
+    display: inline-block;
+}
+
+.formule-0 {
+    margin-bottom: 48px;
+}
+
+
+.formule-249 {
+    margin-bottom: 48px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.formules {
+    display: flex;
+}
+
+.formule {
+    margin-bottom: 0px;
+}
+
+.option-title {
+    font-size: 24px;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+.description-option {
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.prix-option {
+    text-align: left;
+}
+
+.formule {
+    align-items: baseline;
+}
+
+.fonctionalitise-wrapper {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.formules {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 32px;
+}
+
+h1 {
+    width: 80%;
+    font-size: 56px;
+}
+
+.option-title {
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+}

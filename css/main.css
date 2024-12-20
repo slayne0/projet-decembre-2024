@@ -269,6 +269,11 @@ a {
 }
 
 
+.menu-burger {
+  margin-left: auto;
+}
+
+
 
 
 
@@ -355,10 +360,6 @@ a {
     width: 70%;
   }
 
-  h2 {
-    font-size: 48px;
-  }
-
   .benefits-section {
     display: flex;
   }
@@ -404,6 +405,10 @@ a {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.ready-title {
+  font-size: 48px;
 }
 
 
